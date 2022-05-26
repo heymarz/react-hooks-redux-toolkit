@@ -1,4 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
+import { createStore, applyMiddleware } from "redux"
 
 import catsReducer from "./features/cats/catsSlice";
 
